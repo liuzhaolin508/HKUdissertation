@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Generated outputs
+outputs/
+runs/
+logs/
+*.log
+
+# Model weights and training artifacts
+saved_models/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+
+# Large archives and backups
+90_历史备份_archive/
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+# Large CAD/media assets, use Git LFS or external storage
+*.SLDASM
+*.SLDPRT
+*.STEP
+*.stp
+*.mp4
+*.mov
+*.avi
+
+# Local environment
+.env
+.env.*
+.DS_Store
+Thumbs.db
